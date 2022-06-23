@@ -1,0 +1,22 @@
+:root {
+  --font-weight: 400;
+  --font-weight-bold: 700;
+  --main-bg: #272A2F;
+  --secondary-bg: #19849B;
+  --footer-bg: #16758A;
+  --text-color: #fff;
+  --font-size-name: 30px;
+  --font-size-heading: 24px;
+  --font-size-main: 16px
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body, div, ul, li, figure, h1, h2, h3, span, a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}

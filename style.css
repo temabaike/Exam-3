@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondary-bg);
+  padding: 12px 0px 12px;
+}
+
+.autor-name {
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-name);
+letter-spacing: 0.01em;
+color: var(--text-color);
+}
+
+.main {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  padding: 50px 17px 50px;
+}
+
+.main__heading {
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-heading);
+letter-spacing: 0.01em;
+}
+
+.main__text {
+  font-weight: var(--font-weight);
+font-size: var(--font-size-main);
+letter-spacing: 0.01em;
+}
+
+.main__btn {
+  width: 341px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  background-color: var(--main-bg);
+  font-family: 'Ubuntu';
+font-weight: var(--font-weight-bold);
+font-size: 18px;
+letter-spacing: 1.5px;
+color: var(--text-color);
+}
+
+.main__photo {
+  margin: 1px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg);
+  padding: 30px 17px 30px;
+}
+
+.footer__text {
+  margin-left: 20px;
+}
+
+.footer__name {
+font-weight: var(--font-weight-bold);
+font-size: 22px;
+letter-spacing: 0.01em;
+color: var(--text-color);
+}
+
+.footer__number, .footer__place {
+  font-weight: var(--font-weight);
+font-size: 18px;
+letter-spacing: 0.01em;
+color: var(--text-color);
+}
+
+.under-footer {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+font-size: 12px;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+background-color: var(--footer-bg);
+padding: 15px 76px;
+}
