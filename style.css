@@ -12,6 +12,12 @@ letter-spacing: 0.01em;
 color: var(--text-color);
 }
 
+hr {
+  background-color: var(--secondary-bg);
+  height: 2px;
+  border: none;
+}
+
 .main {
   background-color: var(--main-bg);
   color: var(--text-color);
@@ -42,8 +48,17 @@ letter-spacing: 1.5px;
 color: var(--text-color);
 }
 
+.main__btn:focus {
+  background-color: var(--secondary-bg);
+  border: none;
+}
+
 .main__photo {
   margin: 1px;
+}
+
+.main__photo-big, .main__autor-big, .main__autor-bigger {
+  display: none;
 }
 
 .footer {
@@ -81,4 +96,28 @@ letter-spacing: 0.01em;
 color: rgba(255, 255, 255, 0.7);
 background-color: var(--footer-bg);
 padding: 15px 76px;
+}
+
+@media (min-width: 900px) {
+  .main {
+  padding: 51px 67px 51px;
+  }
+
+  .main__autor {
+    display: none;
+  }
+
+  .main__autor-bigger {
+    display: block;
+  }
+
+  .main__btn {
+    margin: 15px 0px 15px;
+  }
+
+  .main__photo {
+    margin: 11px;
+  }
+  
+  
 }
