@@ -99,6 +99,7 @@ padding: 15px 76px;
 }
 
 @media (min-width: 900px) {
+
   .main {
   padding: 51px 67px 51px;
   }
@@ -118,6 +119,33 @@ padding: 15px 76px;
   .main__photo {
     margin: 11px;
   }
-  
-  
+}
+
+@media (min-width :901px) {
+
+  .main {
+    padding: 50px 227px 40px;
+  }
+
+  .main__autor-bigger, .main__photo {
+    display: none;
+  }
+
+  .main__autor-big {
+    display: block;
+  }
+
+  .main__photo-big {
+    display: inline;
+    margin: 9px;
+  }
+
+  .main-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .section__text {
+    margin-left: 50px;
+  }
 }
